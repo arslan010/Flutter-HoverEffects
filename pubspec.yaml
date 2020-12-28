@@ -1,0 +1,42 @@
+name: flutter_hover_effect_gallery
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/apps.gif
+    - assets/images/websites.gif
+    - assets/images/branding.gif
+    - assets/images/colosseum.jpeg
+    - assets/images/eiffel.jpeg
+    - assets/images/big_ben.jpeg
+  fonts:
+    - family: Averta
+      fonts:
+        - asset: assets/fonts/averta.otf
+        - asset: assets/fonts/averta_bold.otf
+          weight: 700
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Montserrat-Black.ttf
+          weight: 900
